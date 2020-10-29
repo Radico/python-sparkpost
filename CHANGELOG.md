@@ -7,7 +7,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.5.3] - 2020-10-28
 ### Fixed
-- [#3](https://github.com/Radico/python-sparkpost/pull/5) Minor sending/tracking domain bug fixes
+- [#5](https://github.com/Radico/python-sparkpost/pull/5) Minor sending/tracking domain bug fixes
 
 ## [1.5.2] - 2020-10-28
 ### Fixed
