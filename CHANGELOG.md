@@ -5,6 +5,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 - [Compare to latest release][unreleased]
 
+## [1.5.3] - 2020-10-28
+### Fixed
+- [#3](https://github.com/Radico/python-sparkpost/pull/5) Minor sending/tracking domain bug fixes
+
 ## [1.5.2] - 2020-10-28
 ### Fixed
 - [#3](https://github.com/Radico/python-sparkpost/pull/3) Fixed Subaccounts request parameter key
