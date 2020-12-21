@@ -11,7 +11,7 @@ from .subaccounts import Subaccounts
 from .domains import SendingDomains, TrackingDomains
 
 
-__version__ = '1.3.6'
+__version__ = '1.5.4'
 
 EU_API = 'api.eu.sparkpost.com'
 US_API = 'api.sparkpost.com'
@@ -44,7 +44,7 @@ class SparkPost(object):
         self.sending_domains = SendingDomains(self.base_uri, self.api_key,
                                            self.TRANSPORT_CLASS)
         self.tracking_domains = TrackingDomains(self.base_uri, self.api_key,
-                                           self.TRANSPORT_CLASS)   
+                                           self.TRANSPORT_CLASS)
         self.subaccounts = Subaccounts(self.base_uri, self.api_key,
                                            self.TRANSPORT_CLASS)
         # Keeping self.transmission for backwards compatibility.
