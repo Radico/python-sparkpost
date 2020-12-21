@@ -200,7 +200,7 @@ class TrackingDomains(Resource):
             is_default = kwargs.get('default')
             # Not sure why I need to do this. Passing a python boolean on the query
             # string in SendingDomains.list() works, but if I do it here, sparkpost
-            # complains that the query param is not a boolean. ¯\_(ツ)_/¯
+            # complains that the query param is not a boolean.
             params['default'] = 'true' if is_default else 'false'
 
         if 'subaccounts' in kwargs and len(kwargs.get('subaccounts')) > 0:
