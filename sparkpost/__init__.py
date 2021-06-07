@@ -9,7 +9,7 @@ from .templates import Templates
 from .transmissions import Transmissions
 from .subaccounts import Subaccounts
 from .domains import SendingDomains, TrackingDomains
-
+from .ip_pools import IpPools
 
 __version__ = '1.5.4'
 
@@ -47,6 +47,8 @@ class SparkPost(object):
                                            self.TRANSPORT_CLASS)
         self.subaccounts = Subaccounts(self.base_uri, self.api_key,
                                            self.TRANSPORT_CLASS)
+        self.ip_pools = IpPools(self.base_uri, self.api_key,
+                                self.TRANSPORT_CLASS)
         # Keeping self.transmission for backwards compatibility.
         # Will be removed in a future release.
         self.transmission = self.transmissions

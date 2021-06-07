@@ -5,13 +5,17 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 - [Compare to latest release][unreleased]
 
+## [1.5.5] - 2021-06-07
+### Added
+- [#6](https://github.com/Radico/python-sparkpost/pull/6) IP Pools endpoint
+
 ## [1.5.3] - 2020-10-28
 ### Fixed
 - [#5](https://github.com/Radico/python-sparkpost/pull/5) Minor sending/tracking domain bug fixes
 
 ## [1.5.2] - 2020-10-28
 ### Fixed
-- [#3](https://github.com/Radico/python-sparkpost/pull/3) Fixed Subaccounts request parameter key
+- [#4](https://github.com/Radico/python-sparkpost/pull/4) Fixed Subaccounts request parameter key
 
 ## [1.5.1] - 2020-10-28
 ### Fixed
